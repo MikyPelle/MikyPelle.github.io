@@ -1,0 +1,279 @@
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#logo {
+    text-align: center;
+}
+
+.main-header {
+    background-color: #04BFAD;
+    padding: 5px 0 0 0;
+    overflow: auto;
+}
+
+h1 {
+    color: #0E0F13;
+    font-family: 'Candal', sans-serif;
+    margin: 15px 0;
+    margin-top: 4%;
+    font-size: 2.1em;
+    margin-left: 25%;
+}
+
+h2 {
+    color: #0E0F13;
+    font-family: 'Candal', sans-serif;
+    margin: 15px 0 20px 0;
+    font-size: 1.4em;
+    margin-left: -5%;
+}
+
+#logo {
+    float: left;
+    width: 45%;
+    margin-left: 5%;
+    text-align: left;
+}
+
+nav {
+    float: right;
+    width: 45%;
+    margin-right: 5%;
+    margin-top: 2.6%;
+    margin-bottom: 1%;
+    background: none;
+    text-align: right;
+    padding-top: 25px;
+}
+
+nav a {
+    padding: 0 10px;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-right: 10px;
+}
+
+.main-header {
+    border-bottom: 5px solid #027373;
+}
+
+nav {
+    background-color: #027373;
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+
+nav a {
+    color: #ffffff;
+    font-weight: bold;
+    padding: 0 2px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 5px 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a:hover {
+    color: #0E0F13;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+nav a.selected {
+    color: #0E0F13;
+}
+
+body {
+    background-color: black;
+}
+
+#banner {
+    background-image: url(../img/Logo_PCTO.png);
+    text-align: center;
+    padding: 300px 0; 
+    position: relative;
+    background-size: contain; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+#postBanner {
+    background: #04BFAD;
+    padding: 50px 0 30px 0;
+}
+
+.immagineFinale img {
+    width: 45%;
+    height: auto;
+    float: left;
+    overflow: hidden;
+}
+
+.immagineFinale p {
+    width: 40%;
+    float: right;
+    text-align: center;
+    font: 1.4em helvetica;
+    color: #ffffff;
+    margin-right: 6%;
+    margin-top: 10%;
+}
+
+.immagineBox img {
+    float: right;
+    width: 45%;
+    height: auto;
+    margin-top: 5%;
+}
+
+.immagineBox p {
+    width: 40%;
+    float: left;
+    text-align: center;
+    font: 1.4em Helvetica;
+    color: #ffffff;
+    margin-left: 10%;
+    margin-top: 6%;
+}
+
+.Unreal img{
+    float: left;
+    width: 6%;
+    height: auto;
+    margin-top: -1%;
+    margin-left: 10%;
+    margin-right: 2.5%;
+}
+
+.Python img{
+    float: right;
+    width: 6%;
+    height: auto;
+    margin-top: -6%;
+    margin-right: 10%;
+}
+
+footer {
+    background: #04BFAD;
+    padding: 40px 0;
+    text-align:left;
+    font: 1.5em bold arial, sans-serif;
+    width: 100%;
+    margin-top: 70%;
+}
+
+footer p {
+    margin-left: 0%;
+    white-space: nowrap;
+}
+
+footer::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.login {
+    margin-left: 5px;
+    background-color: black;
+    padding: 10px 26px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.login:hover {
+    color: #04BFAD;
+    border: 2px solid #04BFAD;
+}
+
+.fotoLogin img {
+    width: 55%;
+    float: left;
+    margin-top: 10%;
+}
+
+form h1 {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #04BFAD;
+    text-align: center;
+}
+
+form {
+    float: right;
+    margin-right: 3%;
+    margin-top: 9%;
+    padding: 40px;
+    background: black;
+    border: 4px solid #04BFAD;
+    width: 360px;
+}
+
+input {
+    font: 14px 'Open Sans', sans-serif;
+    border: 2px solid #ccc;
+    padding: 6px;
+    display: block;
+    margin-bottom: 10px;
+    width: 96%;
+}
+
+button {
+    background-color: #04BFAD;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-left: 135px;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    color: #04BFAD;
+    background-color: #0E0F13;
+}
+
+.immagineSponsor img {
+    margin-top: 10%;
+    width: 100%;
+}
+
+button.home {
+    float: right;
+    margin-right: 3%;
+    margin-top: 10px;
+    background-color: #04BFAD;
+    padding: 10px 26px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-size: 1.5em Arial;
+}
+
+button.home:hover {
+    color: #04BFAD;
+    background-color: #0E0F13;
+    border: 2px solid #027373;
+}
