@@ -1,12 +1,9 @@
 body{
     background-color: black;
 }
-body img{
-    margin-top: 3%;
-}
 body p{
-    float: right;
-    margin-right: 4%;
+    float: left;
+    margin-right: 10%;
     margin-top: 12%;
     color: white;
     font-size: 1.2em;
